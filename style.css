@@ -1,8 +1,22 @@
-body{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  
+  margin: 0;
+  line-height: 1.5;
 }
-.contaner {
-    max-width: 800px;
-    margin:auto;
-background-color:blueviolet;
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.titel {
+  background-color: blueviolet;
+  color: #f5e7c8;
+}
+
+.topic {}
+
+img {
+  max-width: 100%;
 }
