@@ -1,0 +1,8 @@
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:aqua;
+}
+.contaner {
+    max-width: 800px;
+    margin:auto;
+}
