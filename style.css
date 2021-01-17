@@ -1,51 +1,65 @@
 body {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  
-  margin: 10;
-  line-height: 1.5;
-}
+  font-family: 'Assistant', sans-serif;
 
+  line-height: 1.5;
+    font-size: 20px;
+
+}
+.background{
+    background-color: #f5e7c8;
+
+}
 .container {
   max-width: 800px;
   margin: auto;
-}
-
-.titel {
-  background-color:#f5e7c8; 
-  color:blueviolet;
-      text-align: center;
-
-}
-
-a{
-  color: #blueviolet;
-      font-size:30px; 
-
-}
-
-button{
-    background-color:#f5e7c8; 
+  padding: 40px;
   
+}
+.titel_img{
+  
+  background: url(wini.jpg) center;
+  background-size: cover;
+  height:500px;
+}
+
+h1 {
+  font-family: 'Amatic SC', sans-serif;
+  color: #927313;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+
+}
+
+
+a {
+  font-size: 30px;
+}
+
+button {
+  background-color:burlywood;
+
 }
 
 .topic {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 25px;
 }
 
-.img_colm{
-    background-color:#f5e7c8; 
+.img_colm {
 
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 25px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
 }
 
 img {
   max-width: 100%;
-    width: 1000px;
-    height: auto;
-    display: block;
-    margin:auto
+  
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin: auto;
+  
 }
