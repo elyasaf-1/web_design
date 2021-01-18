@@ -30,13 +30,19 @@ h1 {
   padding: 20px;
 
 }
+.links{
+    
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
 
 
-a {
-  font-size: 30px;
 }
 
+
 button {
+    font-size: 25px;
+min-width: 200px;
   background-color:burlywood;
 
 }
