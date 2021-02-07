@@ -10,8 +10,12 @@ body {
 }
 
 .background2 {
-  background-color: burlywood;
+  background-color: #c5b69a;
 }
+
+/*.background3 {
+  background-color: #686052;
+}*/
 
 .container {
   max-width: 800px;
@@ -27,7 +31,9 @@ body {
 
 h1 {
   font-family: 'Amatic SC', sans-serif;
-  color: #f7951f;
+    color: #f7951f;
+
+ color: #aa191e;
   text-align: center;
   font-size: 50px;
   padding: 20px;
@@ -35,8 +41,8 @@ h1 {
 
 h3 {
   text-align: center;
-  color: darkred;
-  border-bottom: 4px solid darkred;
+  color: #aa191e;
+  border-bottom: 4px solid #aa191e;
 }
 
 .button {
@@ -46,14 +52,19 @@ h3 {
   display: inline-block;
   margin-top: 60px;
   font-size: 25px;
-  color: darkred;
+  color: #aa191e;
   transition: .3s;
+/*
+  background-color: #f3e5c7;
+*/
 }
 
 .button:hover {
-  background-color: darkred;
+  background-color: #aa191e;
   color: #f3e5c7;
+/*
   transform: scale(1.1);
+*/
 }
 
 img {
@@ -76,23 +87,27 @@ img {
   padding: 20px 0;
 }
 
-
-
-.links {
-  text-align: center;
-}
-
-
 .contact {
   text-align: center;
 }
 
-a{
-    color: #e1282e; 
-    transition: .3s;
+.contact p{
+  margin: 0;
+}
+
+.links{
+    text-align: center;
 
 }
+
+a{
+    color: crimson; 
+    transition: .3s;
+}
 a:hover {
-    color: blue; 
+/*
+    color: #f7951f; 
+*/    color: blue; 
+
 
 }
