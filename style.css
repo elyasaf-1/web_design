@@ -10,7 +10,10 @@ body {
 }
 
 .background2 {
+/*
   background-color: #c5b69a;
+*/
+    background-color:#ecc68a;
 }
 
 /*.background3 {
@@ -31,8 +34,9 @@ body {
 
 h1 {
   font-family: 'Amatic SC', sans-serif;
+/*
     color: #f7951f;
-
+*/
  color: #aa191e;
   text-align: center;
   font-size: 50px;
@@ -80,7 +84,6 @@ img {
   grid-gap: 35px;
   list-style-type: none;
   padding: 0;
-
 }
 
 .products {
@@ -97,17 +100,15 @@ img {
 
 .links{
     text-align: center;
-
 }
 
 a{
     color: crimson; 
     transition: .3s;
 }
+
 a:hover {
 /*
     color: #f7951f; 
 */    color: blue; 
-
-
 }
